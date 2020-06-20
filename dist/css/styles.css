@@ -10167,10 +10167,9 @@ body {
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0.75rem;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10179,7 +10178,7 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.25rem;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -10228,7 +10227,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/mlk-grid2.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-gridtech.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
